@@ -11,7 +11,7 @@ function readyDiscord(){
 
 client.on('message', gotMessage);
 
-const tekrar= ['Say HELLO', 'Way Way', 'OO KANKA'];
+const tekrar= ['HELLO', 'Merhaba', 'Hi!!'];
 
 function gotMessage(msg){
     console.log(msg.content);

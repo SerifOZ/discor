@@ -2,7 +2,7 @@ console.log('Merhaba');
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('Nzg0Mzg5MDI1ODUwMzI3MDUw.X8olNQ.7wTIzUf5FnFccyAWyLJlB-UcI7A');
+client.login('CLIENT SECRET');
 client.on('ready',readyDiscord);
 
 function readyDiscord(){
